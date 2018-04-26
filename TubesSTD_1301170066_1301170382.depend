@@ -1,0 +1,163 @@
+# depslib dependency file v1.0
+1524319288 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\childdata.cpp
+	"childData.h"
+
+1523884339 d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\childdata.h
+	<iostream>
+
+1524321362 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\childlist.cpp
+	"childList.h"
+	"childData.h"
+
+1523972453 d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\childlist.h
+	<iostream>
+	"childData.h"
+
+1524377548 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\main.cpp
+	<iostream>
+	<cstdlib>
+	"parentList.h"
+	"childList.h"
+	"relationList.h"
+	"caseFunctionality.h"
+
+1523971839 d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\parentlist.h
+	<iostream>
+	"parentData.h"
+
+1523881518 d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\parentdata.h
+	<iostream>
+
+1524375810 d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\relationlist.h
+	<iostream>
+	"childList.h"
+	"parentList.h"
+
+1524318915 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\parentdata.cpp
+	"parentData.h"
+
+1524318988 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\parentlist.cpp
+	"parentList.h"
+	"parentData.h"
+
+1524378144 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\relationlist.cpp
+	"relationList.h"
+	"childData.h"
+	"parentData.h"
+
+1524378065 source:d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\casefunctionality.cpp
+	"caseFunctionality.h"
+
+1524376415 d:\telkom university\semester 2\semester 2 - struktur data\tubesstd_1301170066_1301170382\casefunctionality.h
+	"parentList.h"
+	"childList.h"
+	"relationList.h"
+
+1524378065 source:c:\users\luminoid\documents\github\tubes-std\casefunctionality.cpp
+	"caseFunctionality.h"
+
+1524376415 c:\users\luminoid\documents\github\tubes-std\casefunctionality.h
+	"parentList.h"
+	"childList.h"
+	"relationList.h"
+
+1523971839 c:\users\luminoid\documents\github\tubes-std\parentlist.h
+	<iostream>
+	"parentData.h"
+
+1523881518 c:\users\luminoid\documents\github\tubes-std\parentdata.h
+	<iostream>
+
+1523972453 c:\users\luminoid\documents\github\tubes-std\childlist.h
+	<iostream>
+	"childData.h"
+
+1523884339 c:\users\luminoid\documents\github\tubes-std\childdata.h
+	<iostream>
+
+1524742280 c:\users\luminoid\documents\github\tubes-std\relationlist.h
+	<iostream>
+	"childList.h"
+	"parentList.h"
+
+1524319288 source:c:\users\luminoid\documents\github\tubes-std\childdata.cpp
+	"childData.h"
+
+1524321362 source:c:\users\luminoid\documents\github\tubes-std\childlist.cpp
+	"childList.h"
+	"childData.h"
+
+1524742205 source:c:\users\luminoid\documents\github\tubes-std\main.cpp
+	<iostream>
+	<cstdlib>
+	"parentList.h"
+	"childList.h"
+	"relationList.h"
+	"caseFunctionality.h"
+
+1524318915 source:c:\users\luminoid\documents\github\tubes-std\parentdata.cpp
+	"parentData.h"
+
+1524318988 source:c:\users\luminoid\documents\github\tubes-std\parentlist.cpp
+	"parentList.h"
+	"parentData.h"
+
+1524742212 source:c:\users\luminoid\documents\github\tubes-std\relationlist.cpp
+	"relationList.h"
+	"childData.h"
+	"parentData.h"
+
+1524378065 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\casefunctionality.cpp
+	"caseFunctionality.h"
+
+1524376415 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\casefunctionality.h
+	"parentList.h"
+	"childList.h"
+	"relationList.h"
+
+1523971839 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\parentlist.h
+	<iostream>
+	"parentData.h"
+
+1523881518 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\parentdata.h
+	<iostream>
+
+1523972453 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\childlist.h
+	<iostream>
+	"childData.h"
+
+1523884339 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\childdata.h
+	<iostream>
+
+1524742280 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\relationlist.h
+	<iostream>
+	"childList.h"
+	"parentList.h"
+
+1524319288 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\childdata.cpp
+	"childData.h"
+
+1524321362 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\childlist.cpp
+	"childList.h"
+	"childData.h"
+
+1524742834 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\main.cpp
+	<iostream>
+	<cstdlib>
+	"parentList.h"
+	"childList.h"
+	"relationList.h"
+	"caseFunctionality.h"
+
+1524318915 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\parentdata.cpp
+	"parentData.h"
+
+1524318988 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\parentlist.cpp
+	"parentList.h"
+	"parentData.h"
+
+1524742212 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\relationlist.cpp
+	"relationList.h"
+	"childData.h"
+	"parentData.h"
+
