@@ -8,5 +8,6 @@
 using namespace std;
 
 void AverageRatingPerGenre(ListChild listGenre, ListRelation listRelasi);
+void printGenreDanLagu(ListChild listGenre, ListRelation listRelasi);
 
 #endif // CASEFUNCTIONALITY_H_INCLUDED

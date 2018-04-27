@@ -38,6 +38,4 @@ addressRelation findRelation(ListRelation L, addressParent aP, addressChild aC);
 
 void printLaguDanGenreByID(addressParent pLagu, ListRelation listRelasi);
 void printLaguDanGenre(ListParent listLagu, ListRelation listRelasi);
-void printGenreDanLagu(ListChild listGenre, ListRelation listRelasi);
-
 #endif // RELATIONLIST_H_INCLUDED

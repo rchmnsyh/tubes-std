@@ -110,7 +110,7 @@
 1524378065 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\casefunctionality.cpp
 	"caseFunctionality.h"
 
-1524376415 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\casefunctionality.h
+1524798960 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\casefunctionality.h
 	"parentList.h"
 	"childList.h"
 	"relationList.h"
@@ -129,7 +129,7 @@
 1523884339 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\childdata.h
 	<iostream>
 
-1524742280 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\relationlist.h
+1524798933 d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\relationlist.h
 	<iostream>
 	"childList.h"
 	"parentList.h"
@@ -141,7 +141,7 @@
 	"childList.h"
 	"childData.h"
 
-1524742834 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\main.cpp
+1524798197 source:d:\telkom university\semester 2\semester 2 - struktur data\tubes-std\main.cpp
 	<iostream>
 	<cstdlib>
 	"parentList.h"

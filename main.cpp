@@ -138,9 +138,8 @@ int main()
         cout<<"  |     11. List Genre                              |  "<<endl;
         cout<<"  |     12. List Lagu dan Genrenya                  |  "<<endl;
         cout<<"  |     13. List Genre dan Lagunya                  |  "<<endl;
-        cout<<"  |     14. Tampilkan Lagu dan Genre-nya            |  "<<endl;
+        cout<<"  |     14. Tampilkan Lagu dan Genrenya             |  "<<endl;
         cout<<"  |     15. Rata-rata Rating Lagu per Genre         |  "<<endl;
-        cout<<"  |     16. Case Functionality 2                    |  "<<endl;
         cout<<"  |                                                 |  "<<endl;
         cout<<"  |     0.  Keluar Program                          |  "<<endl;
         cout<<"  |                                                 |  "<<endl;
@@ -435,14 +434,6 @@ int main()
                     cout<<endl;
                     cout<<"  ------  Rata-rata Rating Lagu per Genre  ------"<<endl;
                     AverageRatingPerGenre(listGenre, listRelasi);
-                    cout<<"  Tekan 'Enter' untuk melanjutkan...";
-                    cin.sync();
-                    cin.get();
-                    system("CLS");
-                break;
-                case 16:
-                    cout<<endl;
-                    cout<<"  -------------  UNDER CONSTRUCTION  -------------"<<endl;
                     cout<<"  Tekan 'Enter' untuk melanjutkan...";
                     cin.sync();
                     cin.get();

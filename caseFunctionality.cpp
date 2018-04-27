@@ -28,3 +28,25 @@ void AverageRatingPerGenre(ListChild listGenre, ListRelation listRelasi){
         pGenre = next(pGenre);
     }while(pGenre != first(listGenre));
 }
+
+void printGenreDanLagu(ListChild listGenre, ListRelation listRelasi){
+    addressChild pGenre = first(listGenre);
+    do{
+        view_data_genre(info(pGenre));
+        bool ada = false;
+        addressRelation pRelasi = first(listRelasi);
+        cout<<"  List Lagu ber-genre "<<info(pGenre).nama_genre<<endl;
+        while(pRelasi != NULL){
+            if(child(pRelasi) == pGenre){
+                ada = true;
+                cout<<"  -> "<<info(parent(pRelasi)).judul_lagu<<" - "<<info(parent(pRelasi)).penyanyi_lagu<<endl;
+            }
+            pRelasi = next(pRelasi);
+        }
+        if(ada == false){
+            cout<<"  Belum ada lagu yang terdaftar dengan genre '"<<info(pGenre).nama_genre<<"'"<<endl;
+        }
+        cout<<endl;
+        pGenre = next(pGenre);
+    }while(pGenre != first(listGenre));
+}
