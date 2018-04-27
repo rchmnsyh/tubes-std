@@ -3,15 +3,22 @@
 lagu create_data_lagu(){
     //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     lagu d;
-    cout<<"  ID Lagu        : ";
+    cout<<"  ID Lagu (integer)  : ";
     cin>>d.id_lagu;
-    cout<<"  Judul Lagu     : ";
-    cin.ignore();
-    getline(cin, d.judul_lagu);
-    cout<<"  Penyanyi Lagu  : ";
-    getline(cin, d.penyanyi_lagu);
-    cout<<"  Rating Lagu    : ";
-    cin>>d.rating_lagu;
+    if(cin.fail()){
+        cin.clear();
+        d.id_lagu = NULL;
+        cout<<"  ID Lagu yang anda inputkan bukan integer. Tekan 'Enter' untuk melanjutkan...";
+    }
+    else{
+        cout<<"  Judul Lagu         : ";
+        cin.ignore();
+        getline(cin, d.judul_lagu);
+        cout<<"  Penyanyi Lagu      : ";
+        getline(cin, d.penyanyi_lagu);
+        cout<<"  Rating Lagu        : ";
+        cin>>d.rating_lagu;
+    }
     return d;
 }
 

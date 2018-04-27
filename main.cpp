@@ -152,7 +152,7 @@ int main()
         cin>>menu;
         if(cin.fail()){
             cin.clear();
-            cout<<"  Pilihan bukan integer. Tekan 'Enter' untuk melanjutkan...";
+            cout<<"  Pilihan yang anda inputkan bukan integer. Tekan 'Enter' untuk melanjutkan...";
             cin.sync();
             cin.get();
             system("CLS");
@@ -164,7 +164,8 @@ int main()
                 break;
                 case 1:
                     l = create_data_lagu();
-                    if(findElmLagu(listLagu,l) == NULL){
+
+                    if((l.id_lagu != NULL) && (findElmLagu(listLagu,l) == NULL)){
                         if((l.rating_lagu <= 10) && (l.rating_lagu >= 0)){
                             aP = allocateLagu(l);
                             insertLastLagu(listLagu, aP);
@@ -174,7 +175,7 @@ int main()
                             cout<<"  Rating lagu harus diantara 0 - 10! Tekan 'Enter' untuk melanjutkan...";
                         }
                     }
-                    else{
+                    else if(findElmLagu(listLagu,l) != NULL){
                         cout<<"  ID duplikat! Tekan 'Enter' untuk melanjutkan...";
                     }
                     cin.sync();
@@ -183,12 +184,12 @@ int main()
                 break;
                 case 2:
                     g = create_data_genre();
-                    if(findElmGenre(listGenre,g) == NULL){
+                    if((g.id_genre != NULL) && (findElmGenre(listGenre,g) == NULL)){
                         aC = allocateGenre(g);
                         insertLastGenre(listGenre, aC);
                         cout<<"  Genre berhasil diinput! Tekan 'Enter' untuk melanjutkan...";
                     }
-                    else{
+                    else if(findElmGenre(listGenre,g) != NULL){
                         cout<<"  ID duplikat! Tekan 'Enter' untuk melanjutkan...";
                     }
                     cin.sync();

@@ -53,10 +53,10 @@
 	"childList.h"
 	"relationList.h"
 
-1524378065 source:c:\users\luminoid\documents\github\tubes-std\casefunctionality.cpp
+1524799730 source:c:\users\luminoid\documents\github\tubes-std\casefunctionality.cpp
 	"caseFunctionality.h"
 
-1524376415 c:\users\luminoid\documents\github\tubes-std\casefunctionality.h
+1524798960 c:\users\luminoid\documents\github\tubes-std\casefunctionality.h
 	"parentList.h"
 	"childList.h"
 	"relationList.h"
@@ -65,29 +65,31 @@
 	<iostream>
 	"parentData.h"
 
-1523881518 c:\users\luminoid\documents\github\tubes-std\parentdata.h
+1524810437 c:\users\luminoid\documents\github\tubes-std\parentdata.h
 	<iostream>
+	<cstdlib>
 
 1523972453 c:\users\luminoid\documents\github\tubes-std\childlist.h
 	<iostream>
 	"childData.h"
 
-1523884339 c:\users\luminoid\documents\github\tubes-std\childdata.h
+1524810431 c:\users\luminoid\documents\github\tubes-std\childdata.h
 	<iostream>
+	<cstdlib>
 
-1524742280 c:\users\luminoid\documents\github\tubes-std\relationlist.h
+1524798933 c:\users\luminoid\documents\github\tubes-std\relationlist.h
 	<iostream>
 	"childList.h"
 	"parentList.h"
 
-1524319288 source:c:\users\luminoid\documents\github\tubes-std\childdata.cpp
+1524810728 source:c:\users\luminoid\documents\github\tubes-std\childdata.cpp
 	"childData.h"
 
-1524321362 source:c:\users\luminoid\documents\github\tubes-std\childlist.cpp
+1524799549 source:c:\users\luminoid\documents\github\tubes-std\childlist.cpp
 	"childList.h"
 	"childData.h"
 
-1524742205 source:c:\users\luminoid\documents\github\tubes-std\main.cpp
+1524810940 source:c:\users\luminoid\documents\github\tubes-std\main.cpp
 	<iostream>
 	<cstdlib>
 	"parentList.h"
@@ -95,14 +97,14 @@
 	"relationList.h"
 	"caseFunctionality.h"
 
-1524318915 source:c:\users\luminoid\documents\github\tubes-std\parentdata.cpp
+1524810760 source:c:\users\luminoid\documents\github\tubes-std\parentdata.cpp
 	"parentData.h"
 
-1524318988 source:c:\users\luminoid\documents\github\tubes-std\parentlist.cpp
+1524799691 source:c:\users\luminoid\documents\github\tubes-std\parentlist.cpp
 	"parentList.h"
 	"parentData.h"
 
-1524742212 source:c:\users\luminoid\documents\github\tubes-std\relationlist.cpp
+1524799766 source:c:\users\luminoid\documents\github\tubes-std\relationlist.cpp
 	"relationList.h"
 	"childData.h"
 	"parentData.h"

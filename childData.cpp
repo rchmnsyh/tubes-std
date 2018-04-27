@@ -3,11 +3,18 @@
 genre create_data_genre(){
     //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     genre d;
-    cout<<"  ID Genre    : ";
+    cout<<"  ID Genre (integer)  : ";
     cin>>d.id_genre;
-    cout<<"  Nama Genre  : ";
-    cin.ignore();
-    getline(cin, d.nama_genre);
+    if(cin.fail()){
+        cin.clear();
+        d.id_genre = NULL;
+        cout<<"  ID Genre yang anda inputkan bukan integer. Tekan 'Enter' untuk melanjutkan...";
+    }
+    else{
+        cout<<"  Nama Genre          : ";
+        cin.ignore();
+        getline(cin, d.nama_genre);
+    }
     return d;
 }
 

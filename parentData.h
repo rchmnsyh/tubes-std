@@ -2,6 +2,8 @@
 #define PARENTDATA_H_INCLUDED
 
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
 
 struct lagu{
