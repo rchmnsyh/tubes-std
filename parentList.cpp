@@ -2,11 +2,13 @@
 #include "parentData.h"
 
 void createListLagu(ListParent &L){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     first(L) = NULL;
     last(L)  = NULL;
 }
 
 addressParent allocateLagu(lagu x){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     addressParent P;
     P = new elmlistParent;
     info(P) = x;
@@ -16,10 +18,12 @@ addressParent allocateLagu(lagu x){
 }
 
 void deallocateLagu(addressParent &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     delete P;
 }
 
 void insertFirstLagu(ListParent &L, addressParent P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((first(L) == NULL) && (last(L) == NULL)){
         first(L) = P;
         last(L) = P;
@@ -32,6 +36,7 @@ void insertFirstLagu(ListParent &L, addressParent P){
 }
 
 void insertLastLagu(ListParent &L, addressParent P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((first(L) == NULL) && (last(L) == NULL)){
         insertFirstLagu(L,P);
     }
@@ -43,6 +48,7 @@ void insertLastLagu(ListParent &L, addressParent P){
 }
 
 void insertAfterLagu(ListParent &L, addressParent Prec, addressParent P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((first(L) == NULL) && (last(L) == NULL)){
         insertFirstLagu(L,P);
     }
@@ -55,6 +61,7 @@ void insertAfterLagu(ListParent &L, addressParent Prec, addressParent P){
 }
 
 void deleteFirstLagu(ListParent &L, addressParent &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(first(L) != NULL){
         P = first(L);
         if(first(L) == last(L)){
@@ -70,6 +77,7 @@ void deleteFirstLagu(ListParent &L, addressParent &P){
 }
 
 void deleteLastLagu(ListParent &L, addressParent &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(last(L) != NULL){
         P = last(L);
         if(first(L) == last(L)){
@@ -84,6 +92,7 @@ void deleteLastLagu(ListParent &L, addressParent &P){
 }
 
 void deleteAfterLagu(ListParent &L, addressParent Prec, addressParent &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((Prec != NULL) && next(Prec) != NULL){
         P = next(Prec);
         next(Prec) = next(P);
@@ -94,6 +103,7 @@ void deleteAfterLagu(ListParent &L, addressParent Prec, addressParent &P){
 }
 
 void deleteByIDLagu(ListParent &L, addressParent &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(P == first(L)){
         deleteFirstLagu(L,P);
     }
@@ -107,6 +117,7 @@ void deleteByIDLagu(ListParent &L, addressParent &P){
 }
 
 addressParent findElmLagu(ListParent L, lagu x){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((first(L) != NULL) && (last(L) != NULL)){
         addressParent P = first(L);
         while(P != NULL){
@@ -120,6 +131,7 @@ addressParent findElmLagu(ListParent L, lagu x){
 }
 
 void printInfoLagu(ListParent L){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((first(L) != NULL) && (last(L) != NULL)){
         addressParent P = first(L);
         while(P != NULL){

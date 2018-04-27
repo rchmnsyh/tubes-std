@@ -1,6 +1,7 @@
 #include "caseFunctionality.h"
 
 void AverageRatingPerGenre(ListChild listGenre, ListRelation listRelasi){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     addressChild pGenre = first(listGenre);
     do{
         addressRelation pRelasi = first(listRelasi);
@@ -30,6 +31,7 @@ void AverageRatingPerGenre(ListChild listGenre, ListRelation listRelasi){
 }
 
 void printGenreDanLagu(ListChild listGenre, ListRelation listRelasi){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     addressChild pGenre = first(listGenre);
     do{
         view_data_genre(info(pGenre));

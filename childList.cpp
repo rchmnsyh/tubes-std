@@ -2,10 +2,12 @@
 #include "childData.h"
 
 void createListGenre(ListChild &L){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     first(L) = NULL;
 }
 
 addressChild allocateGenre(genre x){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     addressChild P;
     P = new elmlistChild;
     info(P) = x;
@@ -14,10 +16,12 @@ addressChild allocateGenre(genre x){
 }
 
 void deallocateGenre(addressChild &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     delete P;
 }
 
 void insertFirstGenre(ListChild &L, addressChild P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(first(L) == NULL){
         first(L) = P;
         next(P) = P;
@@ -34,6 +38,7 @@ void insertFirstGenre(ListChild &L, addressChild P){
 }
 
 void insertLastGenre(ListChild &L, addressChild P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(first(L) == NULL){
         insertFirstGenre(L,P);
     }
@@ -48,6 +53,7 @@ void insertLastGenre(ListChild &L, addressChild P){
 }
 
 void insertAfterGenre(ListChild &L, addressChild Prec, addressChild P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((Prec != NULL) && (first(L) != NULL)){
         next(P) = next(Prec);
         next(Prec) = P;
@@ -55,6 +61,7 @@ void insertAfterGenre(ListChild &L, addressChild Prec, addressChild P){
 }
 
 void deleteFirstGenre(ListChild &L, addressChild &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     P = first(L);
     if(P != NULL){
         if(next(P) == P){
@@ -72,6 +79,7 @@ void deleteFirstGenre(ListChild &L, addressChild &P){
 }
 
 void deleteLastGenre(ListChild &L, addressChild &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     P = first(L);
     if(P != NULL){
         if(next(P) == P){
@@ -89,6 +97,7 @@ void deleteLastGenre(ListChild &L, addressChild &P){
 }
 
 void deleteAfterGenre(ListChild &L, addressChild Prec, addressChild &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if((Prec != NULL) && (first(L) != NULL)){
         P = next(Prec);
         next(Prec) = next(P);
@@ -96,6 +105,7 @@ void deleteAfterGenre(ListChild &L, addressChild Prec, addressChild &P){
 }
 
 void deleteByIDGenre(ListChild &L, addressChild &P){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(P == first(L)){
         deleteFirstGenre(L,P);
     }
@@ -112,6 +122,7 @@ void deleteByIDGenre(ListChild &L, addressChild &P){
 }
 
 addressChild findElmGenre(ListChild L, genre x){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(first(L) != NULL){
         addressChild P = first(L);
         do{
@@ -125,6 +136,7 @@ addressChild findElmGenre(ListChild L, genre x){
 }
 
 void printInfoGenre(ListChild L){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     if(first(L) != NULL){
         addressChild P = first(L);
         do{

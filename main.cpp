@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     ListParent listLagu;
     ListChild listGenre;
     ListRelation listRelasi;

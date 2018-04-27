@@ -3,10 +3,12 @@
 #include "parentData.h"
 
 void createListRelation(ListRelation &L){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     first(L) = NULL;
 }
 
 addressRelation allocateRelation(addressParent aP, addressChild aC){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     addressRelation P = new elmlistRelation;
     parent(P) = aP;
     child(P)  = aC;
@@ -15,10 +17,12 @@ addressRelation allocateRelation(addressParent aP, addressChild aC){
 }
 
 void deallocateRelation(addressRelation &P){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     delete P;
 }
 
 void insertRelation(ListRelation &L, addressRelation P){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     if(first(L) == NULL){
         first(L) = P;
     }
@@ -29,6 +33,7 @@ void insertRelation(ListRelation &L, addressRelation P){
 }
 
 void deleteRelation(ListRelation &L, addressRelation &P){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     if(first(L) != NULL){
         if(P == first(L)){
             first(L) = next(first(L));
@@ -45,6 +50,7 @@ void deleteRelation(ListRelation &L, addressRelation &P){
 }
 
 addressRelation findRelation(ListRelation L, addressParent aP, addressChild aC){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     if(first(L) != NULL){
         addressRelation P = first(L);
         while(P != NULL){
@@ -58,6 +64,7 @@ addressRelation findRelation(ListRelation L, addressParent aP, addressChild aC){
 }
 
 void printLaguDanGenreByID(addressParent pLagu, ListRelation listRelasi){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     view_data_lagu(info(pLagu));
     bool ada = false;
     addressRelation pRelasi = first(listRelasi);
@@ -75,6 +82,7 @@ void printLaguDanGenreByID(addressParent pLagu, ListRelation listRelasi){
 }
 
 void printLaguDanGenre(ListParent listLagu, ListRelation listRelasi){
+    //Dibuat oleh Rachmansyah Adhi Widhianto - 1301170066
     addressParent pLagu = first(listLagu);
     while(pLagu != NULL){
         printLaguDanGenreByID(pLagu,listRelasi);

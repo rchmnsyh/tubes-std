@@ -1,6 +1,7 @@
 #include "parentData.h"
 
 lagu create_data_lagu(){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     lagu d;
     cout<<"  ID Lagu        : ";
     cin>>d.id_lagu;
@@ -8,7 +9,6 @@ lagu create_data_lagu(){
     cin.ignore();
     getline(cin, d.judul_lagu);
     cout<<"  Penyanyi Lagu  : ";
-    //cin.ignore();
     getline(cin, d.penyanyi_lagu);
     cout<<"  Rating Lagu    : ";
     cin>>d.rating_lagu;
@@ -16,6 +16,7 @@ lagu create_data_lagu(){
 }
 
 void view_data_lagu(lagu d){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     cout<<"  ID Lagu        : "<<d.id_lagu<<endl;
     cout<<"  Judul Lagu     : "<<d.judul_lagu<<endl;
     cout<<"  Penyanyi Lagu  : "<<d.penyanyi_lagu<<endl;
@@ -23,6 +24,7 @@ void view_data_lagu(lagu d){
 }
 
 void edit_data_lagu(lagu &d){
+    //Dibuat oleh Muhammad Khaifa Gifari - 1301170382
     cout<<"  Judul Lagu     : ";
     cin.ignore();
     getline(cin, d.judul_lagu);
